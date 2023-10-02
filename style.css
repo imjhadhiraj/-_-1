@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box; /* the border is included within the height and padding...and not outside the box*/
+}
+.navbar{
+    height: 60px;
+    background-color: #171F26;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.nav-logo{
+    height: 50px;
+    width:120px;
+    
+
+}
+
+.logo{
+    height: 50px;
+    width:100%;
+    
+    background-image: url("Amazon_logo.png" );
+    background-size: cover;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+
+
+/*****  _______BOX 2__________ *****/
+.dt{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+
+}
+.country{
+    font-size: 1rem;
+    margin-left: 3px;
+    font-weight: bold;
+}
+.add-icon{
+    display: flex;
+    margin-left: 20px;
+}
+
+
+
+/*************    BOX 3   ********************/
+.nav-search{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    width: 700px;
+    height: 40px;
+}
+.nav-search select{
+    height: 46px;
+    width:65px;
+    border-radius: 6px 0px 0px 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #D3D3D3;
+}
+.nav-search input{
+    height: 40px;
+    width: 1200px;
+    font-size: larger;
+}
+.nav-search .sch img{
+    position:relative;
+    top:2px;
+    -webkit-filter: brightness(100%);
+    border-radius: 0px 6px 6px 0px;
+}
+.nav-search .sch img:hover{
+    -webkit-filter: brightness(70%);
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    
+}
+.nav-search:hover{
+    border:4px solid #FBBB6B;
+}
+.nav-search .sc img{
+    margin-left: 8px;
+}
+
+/***************** BOX 4 ***************/
+.nav-signin {
+    margin: 10px;
+    align-items: center;
+    
+    
+}
+span{
+    font-size: smaller;
+    font-family: Arial, Helvetica, sans-serif;
+    white-space: nowrap;
+}
+
+.nav-second{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    white-space: nowrap;
+   
+}
+/************** box 5 ******************/
+.sch{
+    font-weight: bold;
+    
+}
+.sch i{
+    font-size: 30px;
+    background-size: cover;
+
+}
+
+
+
+/************* PANEL   ***************/
+.panel{
+    background-color: #242C3C;
+    height: 40px;
+    display: flex;
+    color: #cccccc;
+    
+}
+.panel-all{
+    font-size: larger;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    position: relative;
+    top:10px;
+    left:20px;
+}
+.panel-ops{
+    color: white;
+    position: relative;
+    top:10px;
+    
+    right:55px;
+}
+
+
+/*******************    HERO  SECTION      ********************/
+.hero-section{
+    background-image: url("hero4.jpg");
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    
+
+}
+.hero-msg{
+    background-color: white;
+    color:black;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    position: relative;
+    top:300px;
+
+}
+
+/*******************      CONTENT SECTION         ***********************/
+.shop-section{
+    background-color: #E8E4F0;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height:143vh;
+}
+.boxa{
+    background-color: #F4F4F4;
+    position: relative;
+    top:50px;
+    height: 370px;
+    width:22%;
+    
+
+}
+.boxb{
+    background-color: #F4F4F4;
+    position: relative;
+    
+    height: 370px;
+    width:22%;
+    
+
+}
+.box1 img{
+    height:280px;
+    width:260px;
+    position:relative;
+    top:10px;
+    left:15px;
+    background-color: 1.5px solid blue;
+}
+.box2 img{
+    height:280px;
+    width:250px;
+    position:relative;
+    top:10px;
+    left:15px;
+    background-color: 1.5px solid blue;
+}
+.box4 img{
+    height:280px;
+    width:290px;
+    position:relative;
+    top:10px;
+    
+    background-color: 1.5px solid blue;
+}
+.box3 img{
+    height:280px;
+    width:248px;
+    position:relative;
+    top:10px;
+    left:18px;
+    background-color: 1.5px solid blue;
+}
+.box5 img{
+    height:280px;
+    width:260px;
+    position:relative;
+    top:10px;
+    left:15px;
+    background-color: 1.5px solid blue;
+}
+.box6 img{
+    height:280px;
+    width:260px;
+    position:relative;
+    top:10px;
+    left:15px;
+    background-color: 1.5px solid blue;
+}
+.box7 img{
+    height:280px;
+    width:260px;
+    position:relative;
+    top:10px;
+    left:15px;
+    background-color: 1.5px solid blue;
+}
+.box8 img{
+    height:280px;
+    width:260px;
+    position:relative;
+    top:10px;
+    left:15px;
+    background-color: 1.5px solid blue;
+}
+.shop-section p{
+    color: blue;
+}
+.foot-panel1{
+    background-color: #34445C;
+    height: 46px;
+    font-size: 17px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
